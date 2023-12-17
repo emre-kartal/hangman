@@ -9,6 +9,6 @@ python3 hangman.py
 
 Ana dosya içindeki ```tries``` değişkeni düzenlenerek hak sayısı belirlenebilir.
 
-#Kurallar
+# Kurallar
 Her seferinde tek bir harf ile ya da bilinmesi istenen kelimenin uzunluğu kadar uzunlukta bir kelime ile tahmin yapılmalıdır.
 Yanlış tahminler hak sayısını azaltacaktır.
