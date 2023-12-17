@@ -1,2 +1,2 @@
-# hangman
-The hangman.
+# Adam asmaca
+Bildiğiniz adam asmaca.
