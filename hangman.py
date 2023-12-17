@@ -1,10 +1,13 @@
 import random
+
+words = ["elma", "armut", "çilek", "muz", "portakal", "kiraz", "şeftali", "karpuz", "vişne", "erik", "ayva", "üzüm", "nar", "kavun", "mandalina", "ananas", "kayısı", "şekerpare", "profiterol", "baklava"]
 tries = 10
-words = ["elma", "armut", "karpuz", "kavun", "kayısı", "muz", "mandalina", "portakal", "kivi", "üzüm", "çilek", "erik", "kiraz", "şeftali", "nar", "vişne", "ananas", "greyfurt", "limon", "şekerpare", "baklava", "kadayıf", "revani", "kemalpaşa", "ekmekkadayıfı", "künefe", "kazandibi", "sütlaç", "kazandibi", "künefe", "kadayıf", "ekmekkadayıfı", "kemalpaşa", "revani", "kadayıf", "baklava", "şekerpare", "limon", "greyfurt", "ananas", "vişne", "nar", "şeftali", "kiraz", "erik", "çilek", "üzüm", "kivi", "portakal", "mandalina", "muz", "kayısı", "kavun", "karpuz", "armut", "elma"]
 chosen = random.choice(words)
 found_letters = []
+
 print("Seçilen kelime", len(chosen), "harfli.")
 print("Lütfen tek bir harf girin ya da kelimeyi tahmin edin.")
+
 while tries > 0:
     underscores = 0
     for i in range(len(chosen)):
