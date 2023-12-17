@@ -6,3 +6,5 @@ Linux üzerinde ```git clone``` ile indirildikten sonra:
 python3 hangman.py
 ```
 şeklinde çalıştırılabilir.
+
+Ana dosya içindeki ```tries``` değişkeni düzenlenerek hak sayısı belirlenebilir.
