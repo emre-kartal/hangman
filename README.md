@@ -9,6 +9,8 @@ python3 hangman.py
 
 Ana dosya içindeki ```tries``` değişkeni düzenlenerek hak sayısı belirlenebilir.
 
-# Kurallar
+# Nasıl oynanır?
+Bu oyun her başlatıldığında önceden kod içinde belirlenmiş bir listeden rastgele bir kelime seçecektir.
+Ekranda o kelimenin uzunluğu ve doğru tahmin edilmiş harfler gösterilecektir.
 Her seferinde tek bir harf ile ya da bilinmesi istenen kelimenin uzunluğu kadar uzunlukta bir kelime ile tahmin yapılmalıdır.
 Yanlış tahminler hak sayısını azaltacaktır.
